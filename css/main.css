@@ -1,12 +1,14 @@
 .main-box-one {
     display: flex;
     
-
+    align-items: end;
     justify-content: space-between;
 }
 
 .main-box-one-img {    
     padding-top: 100px;
+
+    margin-bottom: 212.92px;
 }
 
 .main-box-one-titlle {
@@ -14,6 +16,16 @@
 
     font-size: 52px;
     font-weight: 700;
+
+    margin-bottom: 30px;
+}
+
+.main-box-one-p {
+    margin-bottom: 90px;
+    font-size: 25px;
+    font-weight: 400px;
+
+    color: var(--azul-marinho-escuro);
 }
 
 .main-box-one-button {
@@ -29,10 +41,13 @@
     width: 350px;
 
     padding: 20px 108px;
+    margin-bottom: 229px;
 }
 
 .main-box-one-texts {
-    padding-top: 124px;
+    padding-top: 127px;
+
+    width: 500px;
 }
 
 .main-section-two {
@@ -44,14 +59,23 @@
     padding-left: 3%;
 }
 
+.main-section-two-titlle {
+    color: #ffffff;
+
+    font-size: 52px;
+
+    margin-bottom: 30px;
+}
+
 .main-section-two-texts {
     padding-top: 191px;
     padding-bottom: 191px;
-}
 
-.main-section-two-titlle {
-    color: #ffffff;
-    font-size: 52px;
+    font-size: 30.23px;
+    font-weight: 400;
+
+    width: 600px;
+    justify-content: space-between;
 }
 
 .main-section-two-paragraph {
@@ -76,6 +100,8 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+
+
 }
 
 .main-section-three-titlle {
@@ -93,6 +119,8 @@
     padding-top: 210.66px;
 
     display: block;
+
+    margin-bottom: 234.69px;
 }
 
 .form-text {
@@ -116,6 +144,7 @@
 
 .text-box {
     width: 500px;
+    height: 309px;
     margin-top: 10px;
 
     border-radius: 19.15px;
@@ -134,6 +163,8 @@
     background: var(--azul-marinho-escuro);
 
     border-radius: 19.2px;
+
+    margin-bottom: 96.7px;
 }
 
 .container-mobile-opnions {
@@ -165,6 +196,35 @@
     margin-bottom: 50px;
 }
 
+.opnion-cliente {
+    width: 200px;
+    height: 80px;
+    
+    font-style: italic;
+    font-weight: 400;   
+}
+
 .box-profile {
     margin-bottom: 37px;
+}
+
+.photo-profile {
+    margin-bottom: 8px;
+}
+
+.name-cliente {
+    font-size: 14px;
+    font-weight: 700;
+
+    margin: 0 auto;
+}
+
+.teste2{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 9px;
 }
