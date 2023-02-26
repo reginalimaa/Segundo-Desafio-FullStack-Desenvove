@@ -13,4 +13,14 @@ header {
 
 .teste {
     color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.header-nav-link {
+    margin-right: 50px;
+}
+
+.header-nav-link:nth-child(3n) {
+    margin-right: 0;
 }

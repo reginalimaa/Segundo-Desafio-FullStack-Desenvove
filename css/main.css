@@ -1,0 +1,170 @@
+.main-box-one {
+    display: flex;
+    
+
+    justify-content: space-between;
+}
+
+.main-box-one-img {    
+    padding-top: 100px;
+}
+
+.main-box-one-titlle {
+    color: var(--azul-marinho-escuro);
+
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.main-box-one-button {
+    color: var(--azul-claro);
+    background: var(--azul-marinho-escuro);
+
+    font-size: 25px;
+    font-weight: 700;
+
+    border: none;
+    border-radius: 10px;
+
+    width: 350px;
+
+    padding: 20px 108px;
+}
+
+.main-box-one-texts {
+    padding-top: 124px;
+}
+
+.main-section-two {
+    display: flex;
+
+    background: var(--azul-marinho-escuro);
+
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.main-section-two-texts {
+    padding-top: 191px;
+    padding-bottom: 191px;
+}
+
+.main-section-two-titlle {
+    color: #ffffff;
+    font-size: 52px;
+}
+
+.main-section-two-paragraph {
+    color: #ffffff;
+}
+
+.main-section-two-img {
+    padding-top: 198.23px;
+    padding-bottom: 190px;
+}
+
+.main-section-three {
+    display: flex;
+
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.main-section-three-texts {
+    padding-top: 48px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.main-section-three-titlle {
+    color: var(--azul-marinho-escuro);
+    font-size: 52px;
+    font-weight: 700;
+
+    margin-bottom: 30px;
+}
+
+.main-section-three-img {
+    width: 729.34px;
+    height: 382.86px;
+
+    padding-top: 210.66px;
+
+    display: block;
+}
+
+.form-text {
+    font-size: 37px;
+    font-weight: 700;
+
+    margin-top: 30px;
+}
+
+.form-box {
+    width: 500px;
+    height: 60px;
+
+    border-radius: 19.15px;
+
+    border: var(--azul-marinho-escuro) solid 2px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-box {
+    width: 500px;
+    margin-top: 10px;
+
+    border-radius: 19.15px;
+    border: var(--azul-marinho-escuro) solid 2px;
+} 
+
+.form-button {
+    padding: 17px 43px;
+
+    margin-top: 15px;
+
+    font-size: 35.46px;
+    font-weight: 700;
+
+    color: #ffffff;
+    background: var(--azul-marinho-escuro);
+
+    border-radius: 19.2px;
+}
+
+.container-mobile-opnions {
+    background: var(--azul-marinho-escuro);
+}
+
+.container-mobile {
+    display: flex;
+    flex-direction: column;
+
+    justify-items: center;
+
+    margin: 0 auto;
+    width: 130px;
+
+    color: #ffffff;
+}
+
+.title-opnion {
+    font-size: 24px;
+    font-weight: 700;
+
+    color: #ffffff;
+    align-items: center;
+
+    margin: 0 auto;
+    width: 324px;
+
+    margin-bottom: 50px;
+}
+
+.box-profile {
+    margin-bottom: 37px;
+}

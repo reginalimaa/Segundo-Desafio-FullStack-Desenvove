@@ -13,77 +13,79 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
     <header class="container">
         <img src="img/logo.png" alt="">
         <nav class="teste">
-            <a href="#">Início</a>
-            <a href="#">Quem somos?</a>
-            <a href="#">Entre em contato</a>
+            <a class="header-nav-link" href="#">Início</a>
+            <a class="header-nav-link" href="#">Quem somos?</a>
+            <a class="header-nav-link" href="#">Entre em contato</a>
         </nav>
     </header>
-
-    <main>
-        <section>
-            <h1>Encontre o seu lugar!</h1>
-            <p>F4Life é uma empresa de aluguéis de repúblicas para pessoas universitárias</p>
-            <button>Saiba mais</button>
-
-            <img src="img/imgSection1.png" alt="">
+    <main class="">
+        <section class="container main-box-one">
+            <div class="main-box-one-texts">
+                <h1 class="main-box-one-titlle" >Encontre o seu lugar!</h1>
+                <p>F4Life é uma empresa de aluguéis de repúblicas para pessoas universitárias</p>
+                <button class="main-box-one-button">Saiba mais</button>
+            </div>
+            <img class="main-box-one-img" src="img/imgSection1.png" alt="">
         </section>
-        <section>
-            <h2>Quem Somos?</h2>
-            <p>F4Life é uma empresa de aluguéis de repúblicas para pessoas universitárias. <br> Simmilar aos modelos de Quinto Andar e Loft, 
-               a empresa realiza reformas e prepara moradias para recepção de pessoas universitárioas em um ambiente específoco e otimizado 
-               para a vida de graduação.</p>
-
-            <img src="img/imgSection2.png" alt="">
+        <section class="main-section-two">
+            <div class="main-section-two-texts">
+                <h2 class="main-section-two-titlle" >Quem Somos?</h2>
+                <p class="main-section-two-paragraph">F4Life é uma empresa de aluguéis de repúblicas para pessoas universitárias. <br> Simmilar aos modelos de Quinto Andar e Loft, 
+                a empresa realiza reformas e prepara moradias para recepção de pessoas universitárioas em um ambiente específoco e otimizado 
+                para a vida de graduação.</p>
+            </div>
+            <img class="main-section-two-img" src="img/imgSection2.png" alt="">
         </section>
-        <section>
-            <h2></h2>
-            <form action="" method="post">
-                <label for="email">E-mail</label>
-                <input type="email" id="email">
-
-                <label for="msg">Mensagem</label>
-                <textarea name="mensagem" id="msg" cols="30" rows="10"></textarea>
-
-                <button type="submit">Enviar</button>
-            </form>
-
-            <img src="img/imgSection3.png" alt="">
-
-            <section>
+        <section class="container-mobile-opnions">
+            <div class="title-opnion">
                 <h2>Veja a opnião dos nossos clientes</h2>
-
-                <div>
+            </div>
+            <div class="container-mobile">
+                <div class="box-profile">
                     <img src="img/Avatar1.png" alt="">
-                    <p>Astrogildo</p>
+                    <p class="name-cliente">Astrogildo</p>
                     <p>"A F4Life prestou um serviço inrivel"</p>
                 </div>
-                <div>
+                <div class="box-profile">
                     <img src="img/Avatar2.png" alt="">
-                    <p>Creuza</p>
+                    <p class="name-cliente">Creuza</p>
                     <p>"Serviço de qualidade com um preço justo"</p>
                 </div>
-                <div>
+                <div class="box-profile">
                     <img src="img/Avatar3.png" alt="">
-                    <p>Jurema</p>
+                    <p class="name-cliente">Jurema</p>
                     <p>"Já tive experiencai com outras empresas, mas a F2Life, sem duvidas tem o melhor serviço"</p>
                 </div>
-            </section>
-
+            </div>
         </section>
-
+        <section class="container main-section-three">
+            <div class="main-section-three-texts">
+                <h2 class="main-section-three-titlle">Entre em contato</h2>
+                <form action="" method="post">
+                    <label class="form-text" for="email">E-mail</label>
+                    <input class="form-box" type="email" id="email">
+                    <label class="form-text" for="msg">Mensagem</label>
+                    <textarea class="text-box" name="mensagem" id="msg" cols="30" rows="10"></textarea>
+                    <button class="form-button" type="submit">Enviar</button>
+                </form>
+            </div>
+            <img class="main-section-three-img" src="img/imgSection3.png" alt="">
+        </section>
         <footer>
-            <img src="img/logo.png" alt="">
+            <img class="footer-logo" src="img/logo.png" alt="">
             <div class="social-icons">
-                <a href=""><img src="img/facebook.png" alt=""></a>
-                <a href=""><img src="img/linkedin.png" alt=""></a>
-                <a href=""><img src="img/Twitter.png" alt=""></a>
+                <a class="icons" href=""><img src="img/facebook.png" alt=""></a>
+                <a class="icons" href=""><img src="img/linkedin.png" alt=""></a>
+                <a class="icons" href=""><img src="img/Twitter.png" alt=""></a>
             </div> 
-            <p>Todps ps direitos reservados 2023 F4LIFE</p>
+            <p class="footer-paragraph">Todos os direitos reservados &copy; 2023 F4LIFE</p>
         </footer>
     </main>
     

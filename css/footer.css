@@ -1,0 +1,31 @@
+footer {
+    display: flex;
+    flex-direction: row;
+
+    background: var(--azul-marinho-escuro);
+
+    align-items: center;
+
+    height: 125px;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.footer-logo {
+    margin-right: 228px;
+}
+
+.icons {
+    margin-right: 60px;
+}
+
+.icons:nth-child(3n) {
+    margin-right: 130px;
+}
+
+.footer-paragraph {
+    color: #ffffff;
+     
+    font-size: 18px;
+    font-weight: 700;
+}
