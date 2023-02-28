@@ -15,44 +15,50 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/respnsive.css">
 
     <script type="text/javascript" src="script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 </head>
 <body>
     <header class="container">
-        <img class="header-mobile-img1" src="img/logo.png" alt="Logo F4LIFE">
-        <nav>
-            <a href="#" class="brand-logo">Logo</a>
-            <a href="#" data-activates="menu-mobile" class="button-collapse">
-                <i class="material-icons">menu</i>
-            </a>
+        
+            <img class="header-mobile-img1" src="img/logo.png" alt="Logo F4LIFE">
+            <nav>
+                <a href="#" class="brand-logo">Logo</a>
+                <a href="#" data-activates="menu-mobile" class="button-collapse">
+                    <i class="material-icons">menu</i>
+                </a>
 
-            <ul class="header-nav-ul">
-                <li class="header-nav-link"><a href="#">Início</a></li>
-                <li class="header-nav-link"><a href="#">Quem somos?</a></li>
-                <li class="header-nav-link"><a href="#">Entre em contato</a></li>
-            </ul>
+                <ul class="header-nav-ul">
+                    <li class="header-nav-link"><a href="#">Início</a></li>
+                    <li class="header-nav-link"><a href="#">Quem somos?</a></li>
+                    <li class="header-nav-link"><a href="#">Entre em contato</a></li>
+                </ul>
 
-            <ul class="side-nav" id="menu-mobile">
-                <li><a href="#">Angular</a></li>
-                <li><a href="#">Ionic</a></li>
-                <li><a href="#">TypeScript</a></li>
-                <li><a href="#">Cordova</a></li>
-            </ul>
-        </nav>
+                <ul class="side-nav" id="menu-mobile">
+                    <li><a href="#">Angular</a></li>
+                    <li><a href="#">Ionic</a></li>
+                    <li><a href="#">TypeScript</a></li>
+                    <li><a href="#">Cordova</a></li>
+                </ul>
+            </nav>
+       
     </header>
     <main>
-        <section class="container main-box-one">
+        <section class="container main-box">
+            
             <div class="main-box-one-texts">
                 <h1 class="main-box-one-titlle" >Encontre o seu lugar!</h1>
                 <p class="main-box-one-p">F4Life é uma empresa de aluguéis de repúblicas para pessoas universitárias</p>
                 <button class="main-box-one-button">Saiba mais</button>
             </div>
-            <img class="main-box-one-img1" src="img/imgSection1.png" alt="">
+            <div class="main-box-one-img1">
+                <img src="img/imgSection1.png" alt="">
+            </div>
+
         </section>
-        <section class="main-section-two">
+        <section class="container main-box color-box-two">
             <div class="main-section-two-texts">
                 <h2 class="main-section-two-titlle" >Quem Somos?</h2>
                 <p class="main-section-two-paragraph">F4Life é uma empresa de aluguéis de repúblicas para pessoas universitárias. <br> Simmilar aos modelos de Quinto Andar e Loft, 
@@ -110,20 +116,13 @@
         </section>
         <footer>
             <img class="footer-logo" src="img/logo.png" alt="">
-            <div class="social-icons">
-                <a class="icons" href=""><img src="img/facebook.png" alt=""></a>
-                <a class="icons" href=""><img src="img/linkedin.png" alt=""></a>
-                <a class="icons" href=""><img src="img/Twitter.png" alt=""></a>
-            </div> 
+            <ul class="social-icons">
+                <li class="icons"><a href=""><img src="img/facebook.png" alt=""></a></li>
+                <li class="icons"><a href=""><img src="img/linkedin.png" alt=""></a></li>
+                <li class="icons"><a href=""><img src="img/Twitter.png" alt=""></a></li>
+            </ul>
             <p class="footer-paragraph">Todos os direitos reservados &copy; 2023 F4LIFE</p>
         </footer>
-    </main>
-    
-    <script>
-       $(function(){
-             $(".button-collapse").sideNav();
-        });
-    </script>
-        
+    </main>    
 </body>
 </html>

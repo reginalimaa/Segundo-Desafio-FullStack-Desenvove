@@ -1,17 +1,11 @@
 @media screen and (max-width: 480px) {
-    .main-box-one {
+    .header {
+        width: auto;
+    }
+
+
+    .main-box {
         display: flex;
         flex-direction: column;
-        
     }
-
-    .header-mobile-img1 {
-        width: 375px;
-        height: 300.8px;
-        display: block;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    
 }

@@ -1,14 +1,16 @@
-.main-box-one {
+.main-box {
     display: flex;
+    flex-direction: row;
     
     align-items: end;
     justify-content: space-between;
 }
 
-.main-box-one-img {    
-    padding-top: 100px;
-
+.main-box-one-img1 {    
+    display: inline-flex;
+    
     margin-bottom: 212.92px;
+    padding-top: 100px;
 }
 
 .main-box-one-titlle {
@@ -45,16 +47,13 @@
 }
 
 .main-box-one-texts {
+    padding-top: 120px;
     width: 500px;
 }
 
-.main-section-two {
-    display: flex;
-
+.color-box-two {
     background: var(--azul-marinho-escuro);
 
-    padding-right: 3%;
-    padding-left: 3%;
 }
 
 .main-section-two-titlle {
@@ -66,8 +65,9 @@
 }
 
 .main-section-two-texts {
-    padding-top: 191px;
     padding-bottom: 191px;
+
+    width: 500px;
 
     font-size: 30.23px;
     font-weight: 400;
@@ -140,7 +140,7 @@
 
 .text-box {
     width: 500px;
-    height: 309px;
+    height: 260px;
     margin-top: 10px;
 
     border-radius: 19.15px;

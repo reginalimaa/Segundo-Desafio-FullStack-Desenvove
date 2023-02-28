@@ -15,6 +15,11 @@ footer {
     margin-right: 228px;
 }
 
+.social-icons {
+    display: flex;
+    flex-direction: row;
+}
+
 .icons {
     margin-right: 60px;
 }
