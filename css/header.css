@@ -9,7 +9,10 @@ header {
 
     padding-top: .90rem;
     padding-bottom: .90rem;
+
+    position: absolute;
 }
+
 
 .header-nav-ul {
     color: #ffffff;

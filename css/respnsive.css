@@ -1,11 +1,36 @@
 @media screen and (max-width: 480px) {
-    .header {
-        width: auto;
+    header {
+        width: 88%;
+        display: flex;
+        justify-content: space-between;
     }
 
-
-    .main-box {
-        display: flex;
+    .main-box, .main-section-contact{
         flex-direction: column;
     }
+
+    .header-nav-ul {
+        display: none;
+    }
+
+    .main-box-one-titlle {
+        height: 98px;
+        
+        font-size: 45px;
+        line-height: 49.36px;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    .main-section-three-img {
+        max-width: 414px;
+        height: 183.45px;
+        margin: 0 0 5px 0;
+        display: flex;
+        flex-wrap: initial;
+        padding: 0;
+    }
 }
+
+
+
