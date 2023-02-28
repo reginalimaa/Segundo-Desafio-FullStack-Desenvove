@@ -1,25 +1,45 @@
 @media screen and (max-width: 480px) {
     header {
+       
         width: 88%;
-        display: flex;
-        justify-content: space-between;
+       
     }
 
     .main-box, .main-section-contact{
         flex-direction: column;
     }
 
-    .header-nav-ul {
+    .header-nav-ul, .footer-logo, .footer-paragraph {
         display: none;
     }
 
+    .social-icons {
+    }
+
+    .main-box-one-texts, .main-section-two-texts {
+        width: 335px;
+    }
+
     .main-box-one-titlle {
-        height: 98px;
-        
         font-size: 45px;
-        line-height: 49.36px;
-        text-align: left;
-        vertical-align: top;
+    }
+
+    .main-box-one-img1 {
+        width: 375px;
+        height: 300.8px;
+        margin: 10px 0;
+        padding: 0;
+    }
+
+    .main-box-one-p, .main-section-two-paragraph {
+        font-size: 16px;
+    }
+
+    .main-section-two-img {
+        width: 335px;
+        height: 210.92px;
+
+        padding: 0;
     }
 
     .main-section-three-img {
@@ -30,6 +50,32 @@
         flex-wrap: initial;
         padding: 0;
     }
+
+    .main-section-two-titlle, .main-section-three-titlle {
+        font-size: 24px;
+    }
+
+    .form-box, .text-box {
+        width: 335px;
+    }
+
+    .form-text {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .form-button {
+        font-size: 1rem;
+        font-weight: 700;
+
+        padding: 5px 10px;
+        border-radius: 7px;
+
+    }
+
+    
+
+    
 }
 
 
