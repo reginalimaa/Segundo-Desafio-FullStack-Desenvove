@@ -15,17 +15,31 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
     <script type="text/javascript" src="script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 </head>
 <body>
     <header class="container">
-        <img src="img/logo.png" alt="Logo F4LIFE">
+        <img class="header-mobile-img1" src="img/logo.png" alt="Logo F4LIFE">
         <nav>
+            <a href="#" class="brand-logo">Logo</a>
+            <a href="#" data-activates="menu-mobile" class="button-collapse">
+                <i class="material-icons">menu</i>
+            </a>
+
             <ul class="header-nav-ul">
                 <li class="header-nav-link"><a href="#">Início</a></li>
                 <li class="header-nav-link"><a href="#">Quem somos?</a></li>
                 <li class="header-nav-link"><a href="#">Entre em contato</a></li>
+            </ul>
+
+            <ul class="side-nav" id="menu-mobile">
+                <li><a href="#">Angular</a></li>
+                <li><a href="#">Ionic</a></li>
+                <li><a href="#">TypeScript</a></li>
+                <li><a href="#">Cordova</a></li>
             </ul>
         </nav>
     </header>
@@ -36,7 +50,7 @@
                 <p class="main-box-one-p">F4Life é uma empresa de aluguéis de repúblicas para pessoas universitárias</p>
                 <button class="main-box-one-button">Saiba mais</button>
             </div>
-            <img class="main-box-one-img" src="img/imgSection1.png" alt="">
+            <img class="main-box-one-img1" src="img/imgSection1.png" alt="">
         </section>
         <section class="main-section-two">
             <div class="main-section-two-texts">
@@ -105,5 +119,11 @@
         </footer>
     </main>
     
+    <script>
+       $(function(){
+             $(".button-collapse").sideNav();
+        });
+    </script>
+        
 </body>
 </html>

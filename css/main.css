@@ -93,18 +93,16 @@
 }
 
 .main-section-three-texts {
-    padding-top: 48px;
+    margin-top: 48px;
 
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-
-
 }
 
 .main-section-three-titlle {
     color: var(--azul-marinho-escuro);
-    font-size: 52px;
+    font-size: 3.5rem;
     font-weight: 700;
 
     margin-bottom: 30px;
@@ -167,6 +165,13 @@
 
 .container-mobile-opnions {
     background: var(--azul-marinho-escuro);
+
+    display: none;
+}
+
+.side-nav  {
+    display: none;
+
 }
 
 .container-mobile {
@@ -226,3 +231,4 @@
 
     margin-bottom: 9px;
 }
+
