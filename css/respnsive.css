@@ -1,8 +1,6 @@
 @media screen and (max-width: 480px) {
     header {
-       
         width: 88%;
-       
     }
 
     .main-box, .main-section-contact{
@@ -16,22 +14,22 @@
     .social-icons {
     }
 
-    .main-box-one-texts, .main-section-two-texts {
+    .main-section-one-texts, .main-section-two-texts {
         width: 335px;
     }
 
-    .main-box-one-titlle {
+    .main-section-one-titlle {
         font-size: 45px;
     }
 
-    .main-box-one-img1 {
+    .main-section-one-img {
         width: 375px;
         height: 300.8px;
         margin: 10px 0;
         padding: 0;
     }
 
-    .main-box-one-p, .main-section-two-paragraph {
+    .main-section-one-p, .main-section-two-paragraph {
         font-size: 16px;
     }
 
@@ -72,11 +70,12 @@
         border-radius: 7px;
 
     }
-
-    
-
-    
 }
 
+@media screen and (min-width: 800px) {
+    .section-mobile-opnions {
+        display: none;
+    }
+}
 
 
