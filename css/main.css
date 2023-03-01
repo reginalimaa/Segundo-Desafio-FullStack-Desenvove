@@ -7,7 +7,12 @@
 }
 
 .main-section-one-texts {
+    display: flex;
+    flex-direction: column;
+
     width: 500px;
+
+    padding-bottom: 100px;
 }
 
 .main-section-one-titlle {
@@ -16,11 +21,12 @@
     font-size: 52px;
     font-weight: 700;
 
-    margin: 120px 30px 0 0;
+    padding: 120px 30px 30px 0;
 }
 
 .main-section-one-paragraph {
-    margin-bottom: 90px;
+    margin-bottom: 30px;
+
     font-size: 25px;
     font-weight: 400px;
 
@@ -40,13 +46,16 @@
     width: 350px;
 
     padding: 20px 108px;
-    margin-bottom: 229px;
+    margin-bottom: 120px;
+
+    
 }
 
 .main-section-one-img {    
-    display: inline-flex;
+    display: block;
     
     margin: 200px 0;
+
 }
 
 .color-box-two {
@@ -117,11 +126,9 @@
     margin-bottom: 234.69px;
 }
 
-.form-text {
+.label-contact {
     font-size: 37px;
     font-weight: 700;
-
-    margin-top: 30px;
 }
 
 .form-box {
@@ -159,6 +166,8 @@
     border-radius: 19.2px;
 
     margin-bottom: 96.7px;
+
+    display: block;
 }
 
 .section-mobile-opnions {
@@ -187,7 +196,7 @@
     font-weight: 700;
 
     color: #ffffff;
-    align-items: center;
+    text-align: center;
 
     margin: 0 auto;
     width: 324px;
@@ -200,15 +209,16 @@
     height: 80px;
     
     font-style: italic;
-    font-weight: 400;   
+    font-weight: 400;
+    
+    text-align: center;
 }
 
-.box-profile {
-    margin-bottom: 37px;
-}
 
 .photo-profile {
-    margin-bottom: 8px;
+    width: 125px;
+    height: 125px;
+    margin: 0 auto;
 }
 
 .name-cliente {
@@ -216,6 +226,7 @@
     font-weight: 700;
 
     margin: 0 auto;
+    text-align: center;
 }
 
 .teste2{

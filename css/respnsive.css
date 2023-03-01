@@ -11,22 +11,36 @@
         display: none;
     }
 
-    .social-icons {
+    .icons {
+        margin-right: 100px;
+    }
+    
+    .icons:nth-child(3n) {
+        margin-right: 0px; 
     }
 
     .main-section-one-texts, .main-section-two-texts {
-        width: 335px;
+        width: 100%;
+
+        padding: 0;
     }
 
     .main-section-one-titlle {
         font-size: 45px;
     }
 
+    .main-section-one-button {
+        width: 100%;
+        padding: 5px 100px;
+        margin-bottom: 10px;
+    }
+
     .main-section-one-img {
         width: 375px;
         height: 300.8px;
-        margin: 10px 0;
+        margin: 20px auto;
         padding: 0;
+        align-items: center;
     }
 
     .main-section-one-p, .main-section-two-paragraph {
@@ -38,28 +52,57 @@
         height: 210.92px;
 
         padding: 0;
+        margin: 30px auto 60px auto;
     }
 
     .main-section-three-img {
         max-width: 414px;
         height: 183.45px;
-        margin: 0 0 5px 0;
+        margin: 0 auto;
         display: flex;
         flex-wrap: initial;
         padding: 0;
+        padding-bottom: 5px;
     }
 
     .main-section-two-titlle, .main-section-three-titlle {
         font-size: 24px;
+        font-weight: 700;
+
+        padding-top: 30px;
     }
 
-    .form-box, .text-box {
-        width: 335px;
+    .form-box {
+        width: 438px;
+        height: 31px;
+        border: 0.7px solid #132235;
+        border-radius: 10px;
+        padding: 0 15px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #132235;
+
+        padding: 5px;
     }
 
-    .form-text {
+    .text-box {
+        width: 438px;
+        
+        border: 0.7px solid #132235;
+        border-radius: 10px;
+        padding: 0 15px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #132235;
+
+        padding: 5px;
+    }
+
+    .label-contact {
         font-size: 1rem;
         font-weight: 700;
+
+        display: block;
     }
 
     .form-button {
@@ -69,6 +112,31 @@
         padding: 5px 10px;
         border-radius: 7px;
 
+        border: none;
+
+        align-items: start;
+
+        margin: 20px 0 20px 379px;
+    }
+
+    .main-section-three-texts {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+
+        width: auto;    
+    }
+
+    .section-mobile-opnions {
+        padding-bottom: 30px;
+    }
+
+    .name-cliente {
+        margin: 8px 0;
+    }
+
+    .opnion-cliente {
+        align-self: center;
     }
 }
 
