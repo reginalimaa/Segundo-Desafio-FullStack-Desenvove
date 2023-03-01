@@ -3,6 +3,11 @@
         width: 88%;
     }
 
+    .logo {
+        width: 159px;
+        height: 39px;
+    }
+
     .main-box, .main-section-contact{
         flex-direction: column;
     }
