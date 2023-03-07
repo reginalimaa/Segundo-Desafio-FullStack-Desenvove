@@ -1,5 +1,11 @@
+function sendForms() { 
+    
+    var userNome = document.getElementById("nameid");
 
-
+    if (userNome.value != "") {
+        alert('Obrigada sr(a)' + userNome.value + 'os seus dados foram caminhados com sucesso');
+    }
+}
 
 function isEmailCorrect(email){
     var emailPattern = /^[A-Za-z0-9_!#$%&'*+\/=?`{|}~^.-]+@[A-Za-z0-9.-]+$/gm;
@@ -7,9 +13,11 @@ function isEmailCorrect(email){
 }
 
 function sendForms(){
+    
     var userEmail = document.getElementById("email").value;
     console.log($("#email"));
     console.log(document.getElementById("email"));
+    
     var userMessage = document.getElementById("message").value;
 
     if (isEmailCorrect(userEmail)){
@@ -23,3 +31,5 @@ function sendForms(){
         alert("email está incorreto");
     }
 }
+
+
