@@ -127,45 +127,46 @@
 }
 
 .label-contact {
-    font-size: 37px;
+    font-size: 26px;
     font-weight: 700;
 }
 
 .form-box {
-    width: 500px;
-    height: 60px;
+    width: 99%;
+    height: 50px;
 
-    border-radius: 19.15px;
+    border-radius: 10px;
 
-    border: var(--azul-marinho-escuro) solid 2px;
+    border: var(--azul-marinho-escuro) solid 1px;
 
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .text-box {
-    width: 500px;
-    height: 260px;
+    width: 99%;
+    height: 150px;
     margin-top: 10px;
 
-    border-radius: 19.15px;
-    border: var(--azul-marinho-escuro) solid 2px;
+    padding: 5px;
+
+    border-radius: 10px;
+    border: var(--azul-marinho-escuro) solid 1px;
 } 
 
 .form-button {
-    padding: 17px 43px;
+    padding: 10px 20px;
 
     margin-top: 15px;
+    margin-bottom: 96.7px;
 
-    font-size: 35.46px;
+    font-size: 26px;
     font-weight: 700;
 
     color: #ffffff;
     background: var(--azul-marinho-escuro);
 
     border-radius: 19.2px;
-
-    margin-bottom: 96.7px;
 
     display: block;
 }
