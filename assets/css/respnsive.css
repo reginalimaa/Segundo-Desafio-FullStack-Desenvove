@@ -78,7 +78,7 @@
     }
 
     .form-box {
-        width: 438px;
+        width: 95%;
         height: 31px;
         border: 0.7px solid #132235;
         border-radius: 10px;
@@ -91,7 +91,7 @@
     }
 
     .text-box {
-        width: 438px;
+        width: 95%;
         
         border: 0.7px solid #132235;
         border-radius: 10px;
@@ -119,9 +119,9 @@
 
         border: none;
 
-        align-items: start;
+       
 
-        margin: 20px 0 20px 379px;
+        margin: 30px auto;
     }
 
     .main-section-three-texts {
