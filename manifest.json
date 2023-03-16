@@ -1,0 +1,50 @@
+{
+  "background_color": "#ffffff",
+  "description": "Esse é um app de aluguéis de repúblicas para pessoas universitárias.\nSimilar aos modelos de Quinto Andar e Loft, a empresa realiza reformas e prepara moradias para recepção de pessoas universitárias em um ambiente específico e otimizado para a vida de graduação.",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "netlify",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "netlify",
+  "start_url": "/https://encontreseulugar.netlify.app/",
+  "theme_color": "#132235",
+  "categories": [
+    "business",
+    "education",
+    "finance",
+    "security",
+    "utilities"
+  ],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "assets/img/24.png",
+      "sizes": "24x24",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/36.png",
+      "sizes": "36x36",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/48.png",
+      "sizes": "49x48",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/73.png",
+      "sizes": "73x72",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/98.png",
+      "sizes": "98x96",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [],
+  "lang": "pt",
+  "prefer_related_applications": true
+}
