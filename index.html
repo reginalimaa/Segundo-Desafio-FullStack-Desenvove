@@ -18,8 +18,8 @@
     <link rel="stylesheet" href="assets/css/respnsive.css">
 
     <script type="text/javascript" src="script.js"></script>
-    <script type="text/javascript" src="service-worker.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script type="text/javascript" src="service-worker.js"></script>
 </head>
 <body>
     <header class="container">
@@ -110,18 +110,8 @@
         </footer>
     </main>  
     
-    <div id="snackbar">Uma nova versão está disponível! Clique <a id="reload">AQUI</a> para atualizar.</div>
-
+    
     <script>
-        let newWorker;
-        function showUpdateBar() {
-          let snackbar = document.getElementById('snackbar');
-          snackbar.className = 'show';
-        }
-        // The click event on the pop up notification
-        document.getElementById('reload').addEventListener('click', function () {
-          newWorker.postMessage({ action: 'skipWaiting' });
-        });
         if ('serviceWorker' in navigator) {
           navigator.serviceWorker.register('/service-worker.js').then(reg => {
             reg.addEventListener('updatefound', () => {
