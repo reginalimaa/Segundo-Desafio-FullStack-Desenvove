@@ -7,7 +7,7 @@
   "orientation": "any",
   "scope": "/",
   "short_name": "netlify",
-  "start_url": "/https://encontreseulugar.netlify.app/",
+  "start_url": "index.html",
   "theme_color": "#132235",
   "categories": [
     "business",
