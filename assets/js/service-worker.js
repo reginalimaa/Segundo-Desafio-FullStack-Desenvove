@@ -53,15 +53,4 @@ self.addEventListener('fetch', function (event) {
      }
    }());
 
-  //Atualizacao cache
-  /*event.respondWith(
-    caches.match(event.request)
-      .then(function (response) {
-        if (response) {
-          return response;
-        }
-        return fetch(event.request);
-      })
-  );*/
-
 });
