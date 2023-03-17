@@ -19,30 +19,46 @@
   "screenshots": [],
   "icons": [
     {
-      "src": "assets/img/icon/24.png",
-      "sizes": "24x24",
+      "src": "assets/img/icon/128.png",
+      "sizes": "128x128",
       "type": "image/png"
     },
     {
-      "src": "assets/img/icon/36.png",
-      "sizes": "36x36",
+      "src": "assets/img/icon/144.png",
+      "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "assets/img/icon/.png",
-      "sizes": "49x48",
+      "src": "assets/img/icon/152.png",
+      "sizes": "152x152",
       "type": "image/png"
     },
     {
-      "src": "assets/img/icon/73.png",
-      "sizes": "73x72",
+      "src": "assets/img/icon/167.png",
+      "sizes": "167x167",
       "type": "image/png"
     },
     {
-      "src": "assets/img/icon/98.png",
-      "sizes": "98x96",
+      "src": "assets/img/icon/180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/icon/192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/icon/256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/icon/512.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
+
   ],
   "shortcuts": [],
   "lang": "pt",
