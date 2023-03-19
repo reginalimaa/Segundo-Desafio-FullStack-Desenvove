@@ -22,7 +22,6 @@ self.addEventListener('install', event => {
 
         './assets/css/respnsive.css',
 
-        './assets/img/logo.png',
         './assets/img/imgSection1.png',
         './assets/img/imgSection2.png',
         './assets/img/Avatar1.png',
