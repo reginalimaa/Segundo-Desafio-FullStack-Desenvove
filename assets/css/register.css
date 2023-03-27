@@ -1,17 +1,14 @@
-.main-section-login{
+.content-register{
     display: flex;
     flex-direction: column;
+
+    margin: 0 auto;
 }
 
-.label-1{
-    margin-top: 40px;
-
+.label{
+    margin-top: 10px;
     font-size: 16px;
-    font-size: small;
-}
 
-.label {
-    font-size: 16px;
     font-size: small;
 }
 

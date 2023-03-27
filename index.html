@@ -28,11 +28,22 @@
         <img class="logo" src="assets/img/logo.png" alt="Logo F4LIFE">
         <nav>
             <ul class="header-nav-ul">
-                <li class="header-nav-link"><a href="#">Home</a></li>
-                <li class="header-nav-link"><a href="#">Login</a></li>
+                <li class="header-nav-link"><a href="index.html">Home</a></li>
+                <li class="header-nav-link"><a href="login.html">Login</a></li>
                 <li class="header-nav-link"><a href="#">Tire suas duvidas</a></li>
             </ul>
         </nav>
+
+        <nav class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"><img  class="img-btn" src="assets/img/cardapio.png" alt=""></button>
+            <ul id="myDropdown" class="dropdown-content">
+                <li><a href="#">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Tire suas dúvidas</a></li>
+            </ul>
+        </nav>
+
     </header>
     <main>
         <section class="container main-box">
@@ -142,5 +153,24 @@
           });
         }
       </script>
+
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
 </body>
 </html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - F4LIFE</title>
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/register.css">
+
+</head>
+<body>
+    <header class="l-header">
+        <img class="logo" src="assets/img/logo.png" alt="">
+        <nav class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"><img  class="img-btn" src="assets/img/cardapio.png" alt=""></button>
+            <ul id="myDropdown" class="dropdown-content">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Tire suas dúvidas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <section class="content-register">
+            <label class="label" for="name" >Nome</label>
+            <input class="input" type="text" name="name" id="nameid">
+
+            <label class="label" for="email" >E-mail</label>
+            <input class="input" type="text" name="email" id="emailId">
+
+            <label class="label" for="telephone" >Telefone</label>
+            <input class="input" type="tel" name="teelephone" id="telephoneid">
+
+            <label class="label" for="institution" >Instituição de Ensino</label>
+            <input class="input" type="text" name="institution" id="institutionid">
+
+            <label class="label" for="course" >Curso</label>
+            <input class="input" type="text" name="course" id="courseid">
+
+            <label class="label" for="cpf" >Data de Nascimento</label>
+            <input class="input" type="date" name="cpf" id="cpfid">
+
+            <label class="label" for="cpf" >CPF</label>
+            <input class="input" type="number" name="cpf" id="cpfid">
+
+            <label class="label" for="gender" >Gênero</label>
+            <input class="input" type="text" name="gender" id="genderid">
+
+            <button class="button-login">
+                Cadastrar
+            </button> 
+        </section>
+    </main>
+
+    <footer class="l-footer">
+        <ul class="social-icons">
+            <li class="icons"><a href="#"><img src="assets/img/facebook.png" alt=""></a></li>
+            <li class="icons"><a href="#"><img src="assets/img/linkedin.png" alt=""></a></li>
+            <li class="icons"><a href="#"><img src="assets/img/Twitter.png" alt=""></a></li>
+        </ul>
+    </footer>
+
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>

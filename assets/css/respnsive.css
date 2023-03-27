@@ -146,9 +146,11 @@
 }
 
 @media screen and (min-width: 800px) {
-    .section-mobile-opnions {
+    .section-mobile-opnions, .dropdown {
         display: none;
     }
+
+    
 }
 
 
